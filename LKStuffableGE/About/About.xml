@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>LK Stuffable Outer Rim Armors</name>
+    <author>LeutianKane</author>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <packageId>LeutianKane.StuffGE</packageId>
+    <description>Patches that make All light,medium and heavy armors made of metals in all Outer Rim mods to be stuffable (that werent already) (ie can build it for original cost plus 100 of metals from any mod you have installed as well)</description>
+    <modDependencies>
+       
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>   
+        </li>
+         <li>
+            <packageId>Neronix17.OuterRim.Core</packageId>
+            <displayName>Outer Rim - Core</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2919227155</steamWorkshopUrl>   
+        </li>
+    </modDependencies>
+    <loadAfter>
+    <li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Ludeon.RimWorld.Ideology</li>
+		<li>Ludeon.RimWorld.Biotech</li>
+		<li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+        <li>brrainz.harmony</li>
+        <li>Neronix17.OuterRim.Core</li>
+    </loadAfter>
+</ModMetaData>
